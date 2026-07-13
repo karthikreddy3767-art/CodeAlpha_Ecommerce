@@ -34,7 +34,7 @@ npm run dev
 Server:
 
 ```
-http://localhost:5000
+https://codealpha-ecommerce-83hy.onrender.com
 ```
 
 ## Author

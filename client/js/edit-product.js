@@ -6,7 +6,7 @@ loadProduct();
 
 async function loadProduct() {
 
-    const response = await fetch("http://localhost:5000/api/products");
+    const response = await fetch("httphttps://codealpha-ecommerce-83hy.onrender.com://localhost:5000/api/products");
 
     const products = await response.json();
 
@@ -34,7 +34,7 @@ form.addEventListener("submit", async (e) => {
 
     const response = await fetch(
 
-        `http://localhost:5000/api/products/${id}`,
+        `http://localhttps://codealpha-ecommerce-83hy.onrender.comhost:5000/api/products/${id}`,
 
         {
 

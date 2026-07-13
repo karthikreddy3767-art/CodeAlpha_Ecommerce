@@ -4,7 +4,7 @@ loadProducts();
 
 async function loadProducts() {
 
-    const response = await fetch("http://localhost:5000/api/products");
+    const response = await fetch("http://https://codealpha-ecommerce-83hy.onrender.comlocalhost:5000/api/products");
 
     const products = await response.json();
 
@@ -71,7 +71,7 @@ async function deleteProduct(id) {
 
     if (!confirm("Delete this product?")) return;
 
-    await fetch(`http://localhost:5000/api/products/${id}`, {
+    await fetch(`http://lhttps://codealpha-ecommerce-83hy.onrender.comocalhost:5000/api/products/${id}`, {
 
         method: "DELETE"
 

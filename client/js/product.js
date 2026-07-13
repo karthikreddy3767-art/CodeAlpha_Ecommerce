@@ -6,7 +6,7 @@ loadProduct();
 
 async function loadProduct() {
 
-    const response = await fetch(`http://localhost:5000/api/products`);
+    const response = await fetch(`http://lhttps://codealpha-ecommerce-83hy.onrender.comocalhost:5000/api/products`);
 
     const products = await response.json();
 
@@ -64,7 +64,7 @@ async function addToCart(productId){
 
 const user=JSON.parse(localStorage.getItem("user"));
 
-await fetch("http://localhost:5000/api/cart",{
+await fetch("http://lohttps://codealpha-ecommerce-83hy.onrender.comcalhost:5000/api/cart",{
 
 method:"POST",
 

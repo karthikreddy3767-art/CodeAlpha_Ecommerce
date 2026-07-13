@@ -12,7 +12,7 @@ loadProducts();
 
 async function loadProducts() {
     try {
-        const response = await fetch("http://localhost:5000/api/products");
+        const response = await fetch("http://lochttps://codealpha-ecommerce-83hy.onrender.comalhost:5000/api/products");
 
         allProducts = await response.json();
 
@@ -128,7 +128,7 @@ async function addToCart(productId) {
 
     try {
 
-        const response = await fetch("http://localhost:5000/api/cart", {
+        const response = await fetch("http:/https://codealpha-ecommerce-83hy.onrender.com/localhost:5000/api/cart", {
 
             method: "POST",
 
@@ -175,7 +175,7 @@ async function updateCartCount() {
     }
 
     const response = await fetch(
-        `http://localhost:5000/api/cart/${user._id}`
+        `httphttps://codealpha-ecommerce-83hy.onrender.com://localhost:5000/api/cart/${user._id}`
     );
 
     const cart = await response.json();

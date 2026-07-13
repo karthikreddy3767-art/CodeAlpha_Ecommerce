@@ -12,7 +12,7 @@ async function loadCart(){
 
 const response = await fetch(
 
-`http://localhost:5000/api/cart/${user._id}`
+`http://localhoshttps://codealpha-ecommerce-83hy.onrender.comt:5000/api/cart/${user._id}`
 
 );
 
@@ -141,7 +141,7 @@ async function changeQuantity(id,type){
 
 await fetch(
 
-`http://localhost:5000/api/cart/${type}/${id}`,
+`http://https://codealpha-ecommerce-83hy.onrender.comlocalhost:5000/api/cart/${type}/${id}`,
 
 {
 
@@ -159,7 +159,7 @@ async function removeItem(id){
 
 await fetch(
 
-`http://localhost:5000/api/cart/${id}`,
+`http://localhohttps://codealpha-ecommerce-83hy.onrender.comst:5000/api/cart/${id}`,
 
 {
 
@@ -177,7 +177,7 @@ async function checkout(){
 
 const response=await fetch(
 
-"http://localhost:5000/api/orders",
+"http:https://codealpha-ecommerce-83hy.onrender.com//localhost:5000/api/orders",
 
 {
 

@@ -8,7 +8,7 @@ async function loadOrders(){
 
 const response = await fetch(
 
-`http://localhost:5000/api/orders/${user._id}`
+`http://locahttps://codealpha-ecommerce-83hy.onrender.comlhost:5000/api/orders/${user._id}`
 
 );
 
